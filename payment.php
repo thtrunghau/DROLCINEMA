@@ -1,6 +1,6 @@
 <?php
 	$dummy = array("email" => "user1@gmail.com", "ngayDat" => "05/10/2001", "tongTien" => 50000, "maKM" => 1);
-	$dummy_film_info = array("tenPhim" => "SEMATIC ERROR: LỖI LOGIC 2D", "ngayChieu" => "Thứ 2, 01/09/2022", "gioChieu" => "9:30-11:20", "rapChieu" => "VIP 1, Phú Mỹ Hưng", "gheNgoi" => "D12, D13", "giaTien" => 12000, "soLuong" => 2);
+	$dummy_film_info = array("tenPhim" => "SEMATIC ERROR: LỖI LOGIC 2D", "ngayChieu" => "Thứ 6, 21/04/2023", "gioChieu" => "9:30-11:20", "rapChieu" => "VIP 1, Phú Mỹ Hưng", "gheNgoi" => "D12, D13", "giaTien" => 12000, "soLuong" => 2);
 	$dummy_food_info = array(array("tenMon" => "Combo Bigmon", "soLuong" => 1, "giaTien" => 20000), array("tenMon" => "Combo Bigmon", "soLuong" => 1, "giaTien" => 20000));
 	$film_total = $dummy_film_info['giaTien'] * $dummy_film_info['soLuong'];
 	$food_total = 0;

@@ -28,7 +28,7 @@ function checkAccountLogin($user, $pass)
         return false;
     } else {
         if ($data['matKhau'] == $pass) {
-            header('location: ./SourceCode');
+            header('location: ./SourceCode/DROLCINEMA');
             return true;
         } else {
             return false;
