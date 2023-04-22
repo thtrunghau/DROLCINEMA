@@ -17,9 +17,9 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2">THÔNG TIN LIÊN HỆ</div>
                 <div class="col-md-8 offset-md-2 text-muted font-weight-light mt-2">
-                    Email: hatcinema@gmail.com <br>
-                    Hotline: 1900 0000 <br>
-                    Giờ làm việc: 7:00 - 23:00 (Tất cả các ngày trong tuần)
+                <a href="#" style = "text-decoration: none">Email: drolcinema@gmail.com </a><br>
+                <a href="#" style = "text-decoration: none">Hotline: 1800 1267</a> <br>
+                <a href="#" style = "text-decoration: none">Giờ làm việc: 7:00 - 23:00 (Tất cả các ngày trong tuần)</a>
                 </div>
             </div>
         </div>
@@ -27,9 +27,10 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2">THÀNH VIÊN</div>
                 <div class="col-md-8 offset-md-2 text-muted font-weight-light mt-2">
-                    Thông tin tài khoản <br>
-                    Lịch sử mua vé <br>
-                    Đánh giá
+                    <a href="#" style = "text-decoration: none">Thông tin tài khoản </a><br>
+                    <a href="#" style = "text-decoration: none">Lịch sử mua vé</a> <br>
+                    <a href="#" style = "text-decoration: none">Đánh giá</a>
+                    <!-- <a href=""></a> -->
                 </div>
             </div>
         </div>
@@ -37,11 +38,11 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2">ĐIỂU KHOẢN SỬ DỤNG</div>
                 <div class="col-md-8 offset-md-2 text-muted font-weight-light mt-2">
-                    Điều khoản chung<br>
-                    Điều khoản giao dịch<br>
-                    Chính sách thanh toán<br>
-                    Chính sách bảo mật<br>
-                    Câu hỏi thường gặp
+                <a href="#" style = "text-decoration: none">Điều khoản chung</a><br>
+                <a href="#" style = "text-decoration: none">Điều khoản giao dịch</a><br>
+                <a href="#" style = "text-decoration: none">Chính sách thanh toán</a><br>
+                <a href="#" style = "text-decoration: none">Chính sách bảo mật</a><br>
+                <a href="#" style = "text-decoration: none">Câu hỏi thường gặp</a>
                 </div>
             </div>
         </div>

@@ -1,11 +1,11 @@
 body{
-    background: linear-gradient(#0d0e0e,#043456);   
+    background: linear-gradient(#000000,#1096ba);  
     background-repeat: no-repeat;
 }
 
 .btn-xemthem{
     border-radius: 18px;
-    background-color: #C8235D;
+    background-color: #07a0b8;
     padding: 12px 20px;
     text-decoration: none;
 }

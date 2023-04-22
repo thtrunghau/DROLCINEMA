@@ -6,7 +6,7 @@
 }
 
 body{
-    background: linear-gradient(#0d0e0e,#043456); 
+    background: linear-gradient(#000000,#1096ba);
 }   
 
 #main{
@@ -101,7 +101,7 @@ body{
 
 .titleLogin{
     line-height: 48.41px; 
-    background: linear-gradient(90deg, #8C3CF2 -1.39%, #C8235D 118.42%); 
+    background: linear-gradient(90deg, #3cdcf2 -1.39%, #463bcc 118.42%); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -127,7 +127,7 @@ body{
 
 .toSignUpPage{
     color: white;
-    background-color:#C8235D;
+    background-color:#23a2c8;
     border-radius: 25px;
     width: 144px;
     height: 52px;
