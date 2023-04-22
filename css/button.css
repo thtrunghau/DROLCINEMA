@@ -1,0 +1,300 @@
+.btn {
+    width: 144px;
+    height: 52;
+    border-radius: 0px;
+    padding: 15px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    }
+    .btn-dangky , .btn-dangnhap,.btn-xemthem{
+    background-color: #C8235D;
+    box-shadow: 0px 0px 0px 1px #C8235D;
+    }
+
+    .btn-timkiem {
+    background-image: linear-gradient( #C8235D 0%, #5031B6 100%);
+    }
+    .btn-muave {
+    background-color: #5031B6;
+    box-shadow: 0px 0px 0px 1px #5031B6;
+    }
+
+    .btn-gui{
+    background-color: #C8235D;
+    box-shadow: 0px 0px 0px 1px #C8235D;
+    height: 32px;
+    width: 70px;
+    font-size: 10px;
+    }
+    .btn-thanhtoan{
+    background-image: linear-gradient( #C8235D 0%, #5031B6 100%);
+    width: 423px;
+    height: 80px;
+    text-align: center;
+    }
+
+    #buttons {
+    padding-top: 50px;
+    text-align: center;
+    /* thang edit */
+    margin-top: 98px; 
+    }
+    .btn-chonve,.btn-chonghe,.btn-chondoan,.btn-chonthanhtoan,.btn-datvethanhcong{
+        background-color:#5031B6;
+        width: 200px;
+        height: 60px;
+        display: inline-block;
+        position: relative;
+        
+    }
+    .btn-chonve:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 33px solid #1B142E;
+        border-top: 33px solid transparent;
+        border-bottom: 25px solid transparent;
+      }
+    .btn-chonve:before {
+        content: "";
+        position: absolute;
+        right: -34px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 33px solid #5031B6;
+        border-top: 33px solid transparent;
+        border-bottom:25px solid transparent;
+      }
+      
+    .btn-chonghe:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 33px solid #1B142E;
+        border-top: 33px solid transparent;
+        border-bottom: 25px solid transparent;
+      }
+    .btn-chonghe:before {
+        content: "";
+        position: absolute;
+        right: -34px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 33px solid #5031B6;
+        border-top: 33px solid transparent;
+        border-bottom:25px solid transparent;
+      }
+      .btn-chondoan:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 33px solid #1B142E;
+        border-top: 33px solid transparent;
+        border-bottom: 25px solid transparent;
+      }
+    .btn-chondoan:before {
+        content: "";
+        position: absolute;
+        right: -34px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 33px solid #5031B6;
+        border-top: 33px solid transparent;
+        border-bottom:25px solid transparent;
+      }
+      .btn-chonthanhtoan:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 33px solid #1B142E;
+        border-top: 33px solid transparent;
+        border-bottom: 25px solid transparent;
+      }
+    .btn-chonthanhtoan:before {
+        content: "";
+        position: absolute;
+        right: -34px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 33px solid #5031B6;
+        border-top: 33px solid transparent;
+        border-bottom:25px solid transparent;
+      }
+      .btn-datvethanhcong{
+        padding: right;;
+        
+      }
+      .btn-datvethanhcong:after {
+        content: "     ";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 33px solid #1B142E;
+        border-top: 33px solid transparent;
+        border-bottom: 25px solid transparent;
+      }
+    .btn-datvethanhcong:before {
+        content: "     ";
+        position: absolute;
+        right: -34px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 33px solid #5031B6;
+        border-top: 33px solid transparent;
+        border-bottom:25px solid transparent;
+      }
+
+      /* CSS buton 3 button */
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap");
+
+    
+      .buttonA {
+          width: 1000px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+      }
+      
+      .buttonA .btn {
+          position: relative;
+          top: 0;
+          left: 0;
+          width: 250px;
+          height: 50px;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .buttonA .btn a{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.05);
+          box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+          border-top: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 30px;
+          padding: 10px;
+          letter-spacing: 1px;
+          text-decoration: none;
+          overflow: hidden;
+          color: #fff;
+          font-weight: 400px;
+          z-index: 1;
+          transition: 0.5s;
+          backdrop-filter: blur(15px);
+      }
+      
+      .buttonA .btn:hover a {
+          letter-spacing: 3px;
+      }
+      
+      .buttonA .btn a::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 50%;
+          height: 100%;
+          background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+          transform: skewX(45deg) translate(0);
+          transition: 0.5s;
+          filter: blur(0px);
+      }
+      
+      .buttonA .btn:hover a::before{
+          transform: skewX(45deg) translate(200px);
+      }
+      
+      .buttonA .btn::before {
+          content: "";
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -5px;
+          width: 30px;
+          height: 10px;
+          background: #f00;
+          border-radius: 10px;
+          transition: 0.5s;
+          transition-delay: 0.3s;
+      }
+      
+      .buttonA .btn:hover::before {
+          bottom: 0;
+          height: 50%;
+          width: 80%;
+          border-radius: 30px;
+      }
+      
+      .buttonA .btn::after{
+          content: "";
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: -5px;
+          width: 30px;
+          height: 10px;
+          background: #f00;
+          border-radius: 10px;
+          transition: 0.5s;
+          transition-delay: 0.3s;
+      }
+      
+      .buttonA.btn:hover::after{
+          top: 0;
+          height: 50%;
+          width: 80%;
+          border-radius: 30px;
+      }
+      
+      .buttonA .btn:nth-child(1)::before,
+      .buttonA .btn:nth-child(1)::after {
+        background: #ff1f71;
+        box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71,
+          0 0 60px #ff1f71;
+      }
+      
+      .buttonA .btn:nth-child(2)::before, /* 2*/
+      .buttonA .btn:nth-child(2)::after {
+        background: #2db2ff;
+        box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff,
+          0 0 60px #2db2ff;
+      }
+      
+      .buttonA .btn:nth-child(3)::before, /* 3*/
+      .container .btn:nth-child(3)::after {
+        background: #1eff45;
+        box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
+          0 0 60px #1eff45;
+      }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        .modal-dialog{
+            background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 600;
+        }
+        .modal-title{
+            text-align: center;
+            font-weight: 600;
+        }
+        .form-control{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addDataAdmin">thêm</button>
+    <div class="box-model" >
+        <div class="modal fade" id="addDataAdmin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-header" >
+                <h4 class="modal-title" id="addDataAdmin" style="text-align: center; ">Thêm dữ liệu</h4>
+                <span aria-hidden="true">&times;</span>
+            </div>
+            <div class="modal-body"> 
+                <form method="post" action="">
+                    <div class="form-group">
+                    <label for="tenPhim" class="col-form-label">Tên Phim</label>
+                    <input name="tenPhim" class="form-control" type="text" placeholder="Tên Phim">
+                    </div>
+                    <div class="form-group">
+                    <label for="daoDien" class="col-form-label">Đạo diễn</label>
+                    <input name="daoDien" class="form-control" type="text" placeholder="Đạo diễn">
+                    </div>
+                    <div class="form-group">
+                    <label for="dienVien" class="col-form-label">Diễn viên</label>
+                    <input name="dienVien" class="form-control" type="text" placeholder="Diễn viên">
+                    </div>
+                    <div class="form-group">
+                    <label for="theLoai" class="col-form-label">Thể Loại</label>
+                    <input name="theLoai" class="form-control" type="text" placeholder="Thể Loại">
+                    </div>
+                    <div class="form-group">
+                    <label for="quocGia" class="col-form-label">Quốc Gia</label>
+                    <input name="quocGia" class="form-control" type="text" placeholder="Quốc Gia">
+                    </div>
+                    <div class="form-group">
+                    <label for="phienBan"class="col-form-label">Phiên Bản</label>
+                    <input name="phienBan" class="form-control" type="text" placeholder="Phiên Bản">
+                    </div>
+                    <div class="form-group">
+                    <label for="thoiLuong"class="col-form-label">Thời Lượng</label>
+                    <input name="thoiluong" class="form-control" type="text" placeholder="Thời lượng">
+                    </div>
+                    <div class="form-group">
+                    <label for="gia"class="col-form-label">Giá</label>
+                    <input name="gia" class="form-control" type="text" placeholder="Giá">
+                    </div>
+                    <div class="form-group">
+                    <label for="hangPhim"class="col-form-label">Hãng Phim</label>
+                    <input name="hangPhim" class="form-control" type="text" placeholder="Hãng Phim">
+                    </div>
+                    <div class="form-group">
+                    <label for="ngayBD" class="col-form-label">Ngày bắt đầu</label>
+                    <input name="ngayBD" class="form-control" type="text" placeholder="Ngày bắt đầu">
+                    </div>
+                    <div class="form-group">
+                    <label for="ngayKT" class="col-form-label">Ngày kết thúc</label>
+                    <input name="ngayKT" class="form-control" type="text" placeholder="Ngày kết thúc">
+                    </div>
+                    <div class="form-group">
+                    <label for="anh" class="col-form-label">Link file ảnh</label>
+                    <input name="anh" class="form-control" type="text" placeholder="Link ảnh">
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+</body>
+</html>

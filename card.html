@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/button.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Card</title>
+
+</head>
+<body>
+    <!-- Start a card film -->
+    <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card" >
+            <img class="card-img-top" src="./img/imgCard.jpg" alt="Card image" width="300px">
+            <div class="card-body">
+                <a href="#">
+                    <h4 class="card-title overflow-text">John Doe</h4>
+                    <p class="card-text overflow-text">Some example text.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+   <!-- End a card film -->
+
+    <!-- Star a card ticket -->
+        <div class="card" style="width: 367px; height: 732px;">
+            <img class="card-img-top" src="./img/imgTicket.jpg" alt="Card image" width="300px">
+            <div class="card-body">
+                <table class="table table-borderless table-ticket" >
+                    <thead>
+                        <tr>
+                            <th colspan="3" style="padding: 0 10px 10px 10px;">
+                            <h4 class="card-ticket-title">PANTERA NEGRA: WAKANDA PARA SEMPRE</h4>
+                            <p class="card-ticket-subtitle purple-12">Ryan Coogler</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>        
+                        <tr class="purple-12">
+                            <td>Ngày</td>
+                            <td>Giờ</td>
+                            <td>Loại</td>
+                        </tr>
+                        <tr class="card-ticket-text">
+                            <td>24/11</td>
+                            <td>20h00</td>
+                            <td>3D</td>
+                        </tr>
+                        <tr class="purple-12">
+                            <td>Rạp</td>
+                            <td>Hàng</td>
+                            <td>Ghế</td>
+                        </tr>
+                        <tr class="card-ticket-text">
+                            <td>3</td>
+                            <td>D</td>
+                            <td>6</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                <h4 class="purple-12" style="margin: 0; margin-top: 16px;">HAT Cinema</h4>
+                                <p class="card-ticket-text ">Hai Bà Trưng</p>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            <div class="qr-code">
+                <div class="text-code">
+                    <p class="purple-12" style="margin: 0; margin-top: 16px;">Mã code</p>
+                    <p class="card-ticket-text" style="color:#fff">166937</p>
+                </div>
+                <img src="./img/QR Code.png" alt="Qr code ticket">
+            </div>
+            </div>
+            <img class="line" src="./img/line10.png" alt="Line">
+        </div>
+    <!-- End a card ticket -->
+
+    <!--Start a card food -->
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" >
+                <img class="card-img-top" src="./img/imgPromotion.jpg" alt="Card image" width="247" height="208">
+                <div class="card-body">
+                        <h4 class="card-food-title">Combo BIGMOM</h4>
+                        <p class="card-food-text">Giá: 120.000vnd</p>
+                        <a class="btn-promotion" href="#">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End a card food -->
+</body>
+</html>

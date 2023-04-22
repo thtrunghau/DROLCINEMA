@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+body{
+    background: linear-gradient(#0d0e0e,#043456); 
+}   
+
+#main{
+    overflow: hidden;
+}
+
+.content{
+    margin-top: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.login-input{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block; 
+    background: #2B2B2B;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+}
+
+
+.login-btn{
+    background-color: white;
+    color: black;
+}
+
+.format-form{
+    width: 100%;
+    padding: 0 50px;
+}
+
+.login-input::placeholder{
+    color: white;
+}
+
+.login-input {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.mg-bottom{
+    margin-bottom: 20px;
+}
+
+.mg-top{
+    margin-top: 10px;   
+}
+
+
+.ds-ic{
+    position: relative;
+}
+
+.logo-login{
+    position: absolute;
+    top: 9px;
+    left: 90px;
+}
+
+.ds-form{
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.line-vertical{
+    position: relative;
+    height: 464px; 
+}
+
+.cssForm{
+    background: rgba(140, 60, 242, 0.18);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding: 50px 0;
+}
+.vl{
+    position: absolute;
+    height: 464px;
+    border-left: 2px solid #D9D9D9;
+    left:50%;
+}
+
+
+.titleLogin{
+    line-height: 48.41px; 
+    background: linear-gradient(90deg, #8C3CF2 -1.39%, #C8235D 118.42%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hr{
+    width: 186.04px;
+    border: 1px solid #FFFFFF;
+    height: 0;
+    text-align: center;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+}
+
+.ds-line{
+    position: relative;
+}
+
+.mg-bottom{
+    margin-bottom: 30px;
+}
+
+.toSignUpPage{
+    color: white;
+    background-color:#C8235D;
+    border-radius: 25px;
+    width: 144px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 37px;
+}
+
+@media (max-width: 992px){
+    .line-vertical{
+        display: none;
+    }
+    .pd-form{
+        padding: 25px;
+    }
+    .toLoginPage{
+        display: block;
+        width: 50%;
+    }
+    .logo-login {
+        position: absolute;
+        top: 10px;
+        left: 25px;
+    }
+
+    .format-form{
+        padding: 5px 5px;
+    }
+}
+
+@media (max-width: 768px){
+    .titleLogin{
+        font-size: 30px
+    } 
+
+    .ds-font-sm-20{
+        font-size: 20px;
+    }
+    .ds-font-sm-14{
+        font-size: 14px;
+    }
+    .hr {
+        width: 186.04px;
+        border: 1px solid #FFFFFF;
+        height: 0;
+        text-align: center;
+        position: absolute;
+        top: 35px;
+        left: -5px;
+    }
+}

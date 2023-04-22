@@ -1,0 +1,16 @@
+.modal-dialog {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.modal-title {
+  text-align: center;
+  font-weight: 600;
+}
+.form-control {
+  padding: 10px;
+}
+.btn-modal{
+    background-color: #5031b6;
+}

@@ -1,0 +1,147 @@
+.main {
+  background: linear-gradient(#0d0e0e,#043456); 
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Inter;
+  padding-top: 300px;
+  padding-bottom: 70px;
+}
+
+input {
+  background-color: #5031b6;
+  height: 49px;
+  width: 379px;
+  border-radius: 25px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+  border: none;
+}
+
+input[type="radio"] {
+  height: 16px;
+  width: 16px;
+  border-radius: 0px;
+}
+
+label {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.payment_method_group_item {
+  height: 92px;
+  width: 510px;
+  border-radius: 25px;
+  background: #5031b6;
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+.pay_button {
+  height: 80px;
+  width: 423px;
+  border-radius: 25px;
+  background: linear-gradient(
+    180deg,
+    #f23c88 0%,
+    rgba(160, 65, 219, 0.83) 100%
+  );
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.apply_coupon_button {
+  background: rgb(200, 35, 93);
+  /* height: 49px; */
+  /* width: 379px; */
+  /* border-radius: 25px; */
+}
+
+.section {
+  height: 1050px;
+  width: 655px;
+  border-radius: 10px;
+  background: #8c3cf22e;
+  padding: 20px;
+}
+
+label > img {
+  height: 73px;
+  width: 75px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.film_name {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.info_group {
+  display: flex;
+  flex-direction: row;
+}
+
+.seperator {
+  border: solid#ffffff 1px;
+}
+
+.film_img {
+  height: 369px;
+  width: 228px;
+  border-radius: 0px;
+}
+
+label > img {
+  margin-right: 20px;
+}
+
+.input_group > * {
+  margin-top: 10px;
+}
+
+.payment_method_group {
+  margin-top: 130px;
+}
+
+.receipt_info {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.text_bold {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}

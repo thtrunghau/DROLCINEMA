@@ -1,0 +1,166 @@
+*{
+    font-size: 16px;
+}
+body{
+    background: linear-gradient(#0d0e0e,#043456);    
+}
+
+#main{
+    overflow: hidden;
+}
+
+
+.color-white{
+    color: white;
+}
+
+
+.ds-card-body{
+    background: rgba(140, 60, 242, 0.18);
+    border-radius: 10px;
+    min-height: 310px;
+    position: relative;
+    text-align: center;
+    padding-top: 21px;
+    position: relative;
+    overflow: hidden;
+}
+
+.body-card{
+    flex: 1;
+}
+
+.img-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.img-fluid{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+
+.css-footer-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-name{
+    line-height: 19px;
+}
+
+
+.css-body-card{
+    display: flex;
+    padding-left: 20px;
+}
+
+.css-body-card p:first-child{
+    flex-basis: 40%;
+    text-align: left;
+}
+
+.ds-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.css-border{
+    border-bottom: 2px solid #FFFFFF;
+    margin: 0 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.buy-product{
+    margin-top: 20px;
+}
+
+.total{
+    /* text-align: end; */
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+
+.avaiChair {
+    display: flex;
+}
+
+.avaiChair .avaiChair + .avaiChair{
+    margin-top: 40px;
+}
+
+.avaiChair .chair{
+    margin-right: 12px;
+}
+
+.ds-avaiChair {
+    background: rgba(140, 60, 242, 0.18);
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 49px 0px;
+    margin: auto;
+}
+
+.ds-avaiChair .label-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.ds-boxseat{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin: 11px 0;
+}
+
+.chair{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;    
+}   
+
+.chair:hover{
+    opacity: 0.7;
+}
+
+.red-chair{
+    background-color: #C8235D;
+}
+
+.blue-chair{
+    background-color: #5031B6;
+}
+
+.yellow-chair{
+    background-color: #FFC107;
+}
+
+
+
+@media (max-width: 992px){
+    .ds-avaiChair .label-container {
+        width: 100%;
+        padding: 0 15px;
+        flex-direction: row !important; 
+        justify-content: space-between;
+    }
+}

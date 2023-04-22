@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(#0d0e0e,#043456);   
+    background-repeat: no-repeat;
+}
+
+.btn-xemthem{
+    border-radius: 18px;
+    background-color: #C8235D;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.show-film{
+    margin-top: 6.563em; 
+}
+
+.content-promotion-large img{
+    height: calc(600px/2);
+    width: 100%; 
+    padding: 10px 15px;
+    object-fit: fill; 
+} 
+
+.content-promotion-small img{
+    height: calc(600px/3);
+    width: 100%; 
+    padding: 10px 15px;
+    object-fit: cover; 
+} 
+
+.content-promotion img:hover{
+    opacity: 0.6;
+}
+
+.heading-film{
+    margin: 0 3px;
+}

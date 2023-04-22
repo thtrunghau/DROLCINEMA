@@ -1,0 +1,13 @@
+.header{
+	font-family: 'Inter', sans-serif;
+	font-weight:700;
+	font-style: normal;
+	font-size: 40px;
+	text-transform: uppercase;
+	line-height: 48px;
+	text-align: center;
+
+	background: linear-gradient(90deg, #8C3CF2 -1.39%, #C8235D 118.42%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
