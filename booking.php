@@ -33,7 +33,7 @@ require_once('./utils.php');
     <div id="main">
         <div class="heading">
             <!-- Navbar -->
-            <?php include_once('./navbar.php') ?> 
+            <?php include_once('./navbar.php') ?>
         </div>
 
         <div class="content">
@@ -91,7 +91,8 @@ require_once('./utils.php');
 
                                             $total = $priceBN + $priceFilm;
 
-                                            $gioChieu = $value['giochieu'];
+                                            // $gioChieu = $value['giochieu'];
+                                            $gioChieu = $value['ngaygio'];
                                             $maphong = $value['maPhong'];
 
                                             $maRap = $value['maRap'];
@@ -187,7 +188,7 @@ require_once('./utils.php');
                                     </div>
                                     <p class=" mb-4 font-weight-300 text-white" style="height: 29px;">Bạn đặt vé thành công. Khi bạn đến rạp vui lòng trình vé cho nhân viên tại quầy vé</p>
                                     <p class=" mb-4 font-weight-300 text-white" style="height: 29px;">Chúc bạn có buổi xem phim vui vẻ </p>
-                                    <h2 class="titleThanks fontSize-24   ">HAT Cinema xin chân thành cảm ơn</h2>
+                                    <h2 class="titleThanks fontSize-24   ">DROL CINEMA xin chân thành cảm ơn</h2>
 
                                     <div class="cssFvFilm">
                                         <div class="container">
@@ -232,16 +233,25 @@ require_once('./utils.php');
         <!-- Footer of page -->
         <div class="footer">
             <div class="logo">
-                <img src="./img/logo.png" alt="HAT cinema logo">
+                <img src="./img/in_footer.jpg" alt="Drolcinema cinema logo">
             </div>
             <div class="info">
+                <div class="ket_noi_voi_chung_toi info_child">
+                    <div class="row">
+                        <div class="col-md-12 offset-md-2">LIÊN KẾT</div>
+                        <div class="col-md-8 offset-md-2 text-muted font-weight-light mt-2">
+                            <a class="iconLK" href="https://www.facebook.com/profile.php?id=100082986265800"><img src="./img/icon_facebook.png"></a>
+                            <a class="iconLK" href="https://www.youtube.com/watch?v=a7halJDYJPU&ab_channel=SaigonT%E1%BA%BFu"><img src="./img/icon_youtube.png"></a>
+                        </div>
+                    </div>
+                </div>
                 <div class="thong_tin_lien_he info_child">
                     <div class="row">
                         <div class="col-md-8 offset-md-2">THÔNG TIN LIÊN HỆ</div>
                         <div class="col-md-8 offset-md-2 text-muted font-weight-light mt-2">
-                            Email: hatcinema@gmail.com <br>
-                            Hotline: 1900 0000 <br>
-                            Giờ làm việc: 8:00 - 22:00 (Tất cả các ngày làm việc)
+                            <a href="#" style="text-decoration: none">Email: drolcinema@gmail.com </a><br>
+                            <a href="#" style="text-decoration: none">Hotline: 1800 1267</a> <br>
+                            <a href="#" style="text-decoration: none">Giờ làm việc: 7:00 - 23:00 (Tất cả các ngày trong tuần)</a>
                         </div>
                     </div>
                 </div>
@@ -249,9 +259,10 @@ require_once('./utils.php');
                     <div class="row">
                         <div class="col-md-8 offset-md-2">THÀNH VIÊN</div>
                         <div class="col-md-8 offset-md-2 text-muted font-weight-light mt-2">
-                            Thông tin tài khoản <br>
-                            Lịch sử mua vé <br>
-                            Đánh giá
+                            <a href="#" style="text-decoration: none">Thông tin tài khoản </a><br>
+                            <a href="#" style="text-decoration: none">Lịch sử mua vé</a> <br>
+                            <a href="#" style="text-decoration: none">Đánh giá</a>
+                            <!-- <a href=""></a> -->
                         </div>
                     </div>
                 </div>
@@ -259,22 +270,16 @@ require_once('./utils.php');
                     <div class="row">
                         <div class="col-md-8 offset-md-2">ĐIỂU KHOẢN SỬ DỤNG</div>
                         <div class="col-md-8 offset-md-2 text-muted font-weight-light mt-2">
-                            Điều khoản chung<br>
-                            Điều khoản giao dịch<br>
-                            Chính sách thanh toán<br>
-                            Chính sách bảo mật<br>
-                            Câu hỏi thường gặp
+                            <a href="#" style="text-decoration: none">Điều khoản chung</a><br>
+                            <a href="#" style="text-decoration: none">Điều khoản giao dịch</a><br>
+                            <a href="#" style="text-decoration: none">Chính sách thanh toán</a><br>
+                            <a href="#" style="text-decoration: none">Chính sách bảo mật</a><br>
+                            <a href="#" style="text-decoration: none">Câu hỏi thường gặp</a>
                         </div>
                     </div>
                 </div>
-                <div class="ket_noi_voi_chung_toi info_child">
-                    <div class="row">
-                        <div class="col-md-12 offset-md-2">KẾT NỐI VỚI CHÚNG TÔI</div>
-                        <div class="col-md-8 offset-md-2 text-muted font-weight-light mt-2"></div>
-                    </div>
-                </div>
             </div>
-        </div>
+        </div>iv>
 
     </div>
 

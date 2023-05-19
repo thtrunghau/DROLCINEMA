@@ -37,7 +37,7 @@ require_once('./utils.php');
 
 
     <!-- Start a carousel -->
-    <div id="demo" class="carousel slide" data-ride="carousel"> -->
+    <div id="demo" class="carousel slide" data-ride="carousel"> 
 
         <!-- Indicators -->
         <ul class="carousel-indicators">
@@ -170,7 +170,7 @@ require_once('./utils.php');
                         <?php foreach ($gioChieu as $time) :
                         ?>
                             <div class="item-offer" id="<?php echo $time['maXC'] ?>">
-                                <span class="offer-time"> <?php echo $time['giochieu'] ?> </span>
+                                <span class="offer-time"> <?php echo $time['ngaygio'] ?> </span>
                             </div>
                         <?php endforeach; ?>
                     </div>

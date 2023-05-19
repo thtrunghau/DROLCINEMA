@@ -1,7 +1,7 @@
 <?php ?>
 <div class="footer">
     <div class="logo">
-        <img src="./img/in_footer.jpg" alt="HAT cinema logo">
+        <img src="./img/in_footer.jpg" alt="Drolcinema cinema logo">
     </div>
     <div class="info">
         <div class="ket_noi_voi_chung_toi info_child">

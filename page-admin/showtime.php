@@ -34,7 +34,7 @@ $dataGetDrink = getAllData($statementGetDrink, 1); ?>
                 <td contentEditable='true'  class='edit' id="phim_xuatchieu_<?php echo $value['maXC']; ?>_maXC"><?php echo($dataFilm['tenphim']); ?></td>
                 <td contentEditable='true'  class='edit' id="maPhong_xuatchieu_<?php echo $value['maXC']; ?>_maXC"><?php echo $value['maPhong']; ?></td>
                 <td contentEditable='true'  class='edit' id="maRap_xuatchieu_<?php echo $value['maXC']; ?>_maXC"><?php echo $value['maRap']; ?></td>
-                <td contentEditable='true'  class='edit' id="ngayGio_xuatchieu_<?php echo $value['maXC']; ?>_maXC"><?php echo $value['giochieu']; ?></td>
+                <td contentEditable='true'  class='edit' id="ngayGio_xuatchieu_<?php echo $value['maXC']; ?>_maXC"><?php echo $value['ngaygio']; ?></td>
 
                 <td>
                     <i class="fas fa-trash maXC xuatchieu" id="<?php echo $value['maXC']?>"></i>

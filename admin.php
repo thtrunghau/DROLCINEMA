@@ -37,7 +37,7 @@ $dataGetBill = getAllData($statementGetBill, 1); ?>
     <script src="./js/admin.js">
     </script>
 
-    <title>Admin HAT Cinema</title>
+    <title>Admin DROL Cinema</title>
 </head>
 
 <body>
